@@ -1,0 +1,58 @@
+/* hover effect on the social media icon */
+.fa-brands:hover{ 
+    box-shadow:
+    0.7px 1.2px 0.9px -26px rgba(0, 0, 0, 0.081),
+    1.6px 2.8px 2.1px -26px rgba(0, 0, 0, 0.118),
+    2.8px 4.8px 3.7px -26px rgba(0, 0, 0, 0.146),
+    4.4px 7.6px 5.9px -26px rgba(0, 0, 0, 0.17),
+    6.8px 11.8px 9.1px -26px rgba(0, 0, 0, 0.194),
+    10.6px 18.4px 14.2px -26px rgba(0, 0, 0, 0.222),
+    17.5px 30.5px 23.5px -26px rgba(0, 0, 0, 0.259),
+    35px 61px 47px -26px rgba(0, 0, 0, 0.34);  
+}
+/* hover effect on the name RAj POUdel on the first page  */
+.intro:hover{
+    box-shadow:
+    0.7px 1.2px 0.9px -26px rgba(0, 0, 0, 0.081),
+    1.6px 2.8px 2.1px -26px rgba(0, 0, 0, 0.118),
+    2.8px 4.8px 3.7px -26px rgba(0, 0, 0, 0.146),
+    4.4px 7.6px 5.9px -26px rgba(0, 0, 0, 0.17),
+    6.8px 11.8px 9.1px -26px rgba(0, 0, 0, 0.194),
+    10.6px 18.4px 14.2px -26px rgba(0, 0, 0, 0.222),
+    17.5px 30.5px 23.5px -26px rgba(0, 0, 0, 0.259),
+    35px 61px 47px -26px rgba(0, 0, 0, 0.34)
+  ;
+  
+}
+
+
+/* hvoer effect on the heading li  */
+.header-li:hover{
+    color: white;
+    background-color: black;
+}
+.header-li:first-child{
+    background-color: black;
+}
+/* hover effect on the img  */
+.aboutmepic:hover
+{
+    transform: scale(0.9);
+    box-shadow:15px 134px 79px -52px rgba(0, 0, 0, 0.21);
+
+}
+/* last page contact  */
+.contactmelinksocialmedia:hover{
+    color: grey;
+    text-decoration: none;
+}
+.contactme h3:hover{
+    color: black;
+}
+.contactme h2:hover{
+    color: black;
+}
+.rajpoudelcontact:hover{
+text-decoration: underline;
+}
+

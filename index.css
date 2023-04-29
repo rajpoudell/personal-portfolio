@@ -1,0 +1,326 @@
+*{
+    list-style: none;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    /* border: 1px solid red; */
+
+}
+body {
+    scroll-behavior: smooth;
+  }
+
+  .responsive_image{
+    display: none;
+  }
+
+.frame{
+    background-color: #464646;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    /* overflow-y: visible; */
+    
+}
+.logotext{
+    position: relative;
+    right: 66px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.nice{
+    width: 380px;
+    height: 526px;
+    position: absolute;
+    right: 70px;
+    top: -124px;
+    border-radius: 25%;
+ 
+}
+
+.ellipse1{
+width: 375.7px;
+height:375.76px ;
+background-color: #D9D9D9;
+border-radius: 50%;
+position: absolute;
+right: 64px;
+top: 64px;
+
+}
+.ellipse2{
+    width: 454.29px;
+    height:445.69px ;
+    background-color:#291A1A ;
+    border-radius: 50%;
+    position: absolute;
+    
+    right: 26px;
+    top: 27px;
+  
+}
+.ellipse3{
+    width: 516px;
+    height:506.23px ;
+    background-color:#413737 ;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 150px;
+    cursor: pointer;
+    width: 440px;
+    height: 145px;
+}
+.upper{
+    font-size: 19px;
+    width:max-content;
+    background-color: #239DE2;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 25%;
+ 
+}
+.intro{
+    font-weight: 900;
+    font-size: 25px;
+
+}
+
+.fa-brands{
+    font-size: 70px ;
+    color: #239DE2;
+    padding: 25px;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+.social_media,li{
+    margin-left: 28vh;
+    height: 120px;
+    width: 100%;
+    display: inline-block;
+}
+
+
+/* second page ko css properties suru vayo hai ta  */
+header{
+    margin: 50px auto;    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+
+}
+.header-ul{
+    display: inline-flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15px;
+}
+
+.header-li{
+    font-size: 24px;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 4px 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: auto;
+    text-decoration: none;
+}
+
+.typing{
+    color:  #239DE2;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* second page ko css ya bata suru hai ta */
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #464646;
+    position: relative;
+   justify-content: center;
+    display: flex;
+    
+}
+.centeraboutme{
+    position: absolute;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    margin: 100px auto;
+    width: 80%;
+    height: max-content;
+
+}
+.aboutmepic{
+    width: 400px;
+    border-radius: 130px 40px;
+    position: relative;
+    height: 400px;
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: #413737;
+}
+.typings{
+    color: #239DE2;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
+.aboutme h1{
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-decoration: underline;
+
+
+}
+.aboutme{
+    cursor: pointer;
+}
+.aboutme p{
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica;
+    font-style:oblique;
+    font-weight: 500;
+    padding-top: 40px;
+    
+}
+ /* skill section / third page  ko css design or style  */
+
+.containersss h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.note{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+/* contact section  */
+.container2{
+    height: 100vh;
+    width: 100%;
+    /* position: relative; */
+    background-color: #464646;
+    
+}
+.contactme{
+    transform: translate(0,60%);
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 40px;
+    
+}
+
+.rajpoudelcontact{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.contactme h2 , .contactme h3{
+    cursor: pointer;
+}
+
+ /* css for preloader  */
+ .preloader{
+    background:black url(/images/trying.gif);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    top:0px;
+    
+  }
+  
+/* about skill section hover effect */
+.containersss{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #464646;
+  }
+
+.skillSection{
+    width: 75%;
+    margin: 50px auto;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3,1fr);
+}
+.html,.css,.js,.react{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.bootstrap,.python,.c,.cpp,.figma,.ps{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.image__img{
+    display: block;
+    width: 100px ;
+    height: 100px;
+
+}
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 28px ;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.75s;
+
+
+}
+.image__overlay >*{
+    transform: translateY(30px);
+    transition: 0.75s;
+}
+.image__overlay:hover{
+    opacity: 1;
+}
+.image__overlay:hover>*{
+    transform: translateY(0px);
+}
+.image__title{
+    font-size: 2em;
+}

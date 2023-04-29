@@ -1,0 +1,75 @@
+
+@media only screen and (max-width:550px) {
+    
+    header{
+            margin: 5px;
+        }
+    .header-ul{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+    .header-li{
+                font-size: 16px;
+            }
+    .logotext {
+        display: none;
+    }
+
+    .responsive_image {
+        display: block;
+        width: 180px;
+        height: 326px;
+        text-align: center;
+    }
+    .responsive_image img{
+        width: 326px;
+        height: 426px;
+        position:absolute;
+        border-radius: 20%;
+        
+
+    }
+    .text{
+        position: relative;
+        right: 195px;
+        transform: translateY(-135px);
+    }
+    .intro{
+        font-size: 23px;
+    }
+    .social_media{
+        position: relative;
+        transform: translate(-50%,-110%);
+
+    }
+
+    .frame{
+    height:auto; 
+    }
+    /* second page ko css  */
+    .aboutme h1{
+        line-height: 120px;
+    }
+    .aboutmepic{
+        display: none;
+    }
+    .centeraboutme{
+        width: 100%;
+        text-align: center;
+        display: flex;
+    }
+    
+    .skillSection{
+        width: 80%;
+        margin: 10px auto;
+        display: grid;
+        text-align: center;
+        gap: 7px;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+
+
+
+}
