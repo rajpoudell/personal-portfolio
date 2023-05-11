@@ -1,5 +1,5 @@
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:800px) {
     
     header{
             margin: 5px;
@@ -23,6 +23,7 @@
         text-align: center;
     }
     .responsive_image img{
+        position: relative;
         width: 326px;
         height: 426px;
         position:absolute;

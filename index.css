@@ -37,6 +37,7 @@ body {
     width: 380px;
     height: 526px;
     position: absolute;
+    
     right: 70px;
     top: -124px;
     border-radius: 25%;
@@ -110,9 +111,12 @@ top: 64px;
     height: 120px;
     width: 100%;
     display: inline-block;
+    
 }
 
-
+.firstpage{
+    position: relative;
+}
 /* second page ko css properties suru vayo hai ta  */
 header{
     margin: 50px auto;    
@@ -275,6 +279,7 @@ header{
     margin: 50px auto;
     display: grid;
     gap: 50px;
+    place-items: center;
     grid-template-columns: repeat(3,1fr);
 }
 .html,.css,.js,.react{
