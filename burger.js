@@ -7,6 +7,7 @@ const menu_items = document.querySelectorAll('nav .mainMenu li a');
 function show(){
     mainMenu.style.display = 'flex';
     mainMenu.style.top = '0';
+    mainMenu.style.right = '0'
 }
 function close(){
     mainMenu.style.top = '-120%';
