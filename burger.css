@@ -44,6 +44,7 @@
   nav .mainMenu li a:hover {
     background: rgb(21, 21, 21);
     border-radius: 5px;
+    text-decoration: underline;
   }
   nav .openMenu {
     font-size: 2rem;
