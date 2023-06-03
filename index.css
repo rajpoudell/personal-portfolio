@@ -226,31 +226,6 @@ header{
     justify-content: center;
 
 }
-/* contact section  */
-.container2{
-    height: 100vh;
-    width: 100%;
-    /* position: relative; */
-    background-color: #464646;
-    
-}
-.contactme{
-    transform: translate(0,60%);
-    text-align: center;
-    letter-spacing: 3px;
-    line-height: 40px;
-    
-}
-
-.rajpoudelcontact{
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    font-weight: bolder;
-    cursor: pointer;
-}
-.contactme h2 , .contactme h3{
-    cursor: pointer;
-}
 
  /* css for preloader  */
  .preloader{

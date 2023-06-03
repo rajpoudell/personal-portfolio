@@ -41,18 +41,3 @@
     box-shadow:15px 134px 79px -52px rgba(0, 0, 0, 0.21);
 
 }
-/* last page contact  */
-.contactmelinksocialmedia:hover{
-    color: grey;
-    text-decoration: none;
-}
-.contactme h3:hover{
-    color: black;
-}
-.contactme h2:hover{
-    color: black;
-}
-.rajpoudelcontact:hover{
-text-decoration: underline;
-}
-
