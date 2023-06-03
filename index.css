@@ -415,7 +415,6 @@ header{
 #contact  {
 	background-color: #464646;
 
-
 }
 #contact .contact {
 	flex-direction: column;
@@ -426,6 +425,7 @@ header{
 #contact .contact-items {
 	/* max-width: 400px; */
 	width: 100%;
+    background-color: #464646;
 }
 #contact .contact-item {
 	width: 80%;
@@ -433,7 +433,7 @@ header{
 	text-align: center;
 	border-radius: 10px;
 	padding: 30px;
-	margin: 30px;
+	margin: 0px auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
