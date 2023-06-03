@@ -116,6 +116,7 @@ top: 64px;
 
 .firstpage{
     position: relative;
+    
 }
 /* second page ko css properties suru vayo hai ta  */
 header{
@@ -123,7 +124,7 @@ header{
     text-align: center;
     display: flex;
     justify-content: center;
-    /* position: fixed; */
+    position: relative;
 
 }
 .header-ul{
@@ -156,7 +157,6 @@ header{
 /* second page ko css ya bata suru hai ta */
 .container{
     
-    width: 100%;
     background-color: #464646;
     position: relative;
    justify-content: center;
@@ -213,8 +213,11 @@ header{
     
 }
  /* skill section / third page  ko css design or style  */
-
-.containersss h1 {
+#skills{
+    position: relative;
+    
+}
+#skills h1 {
     text-align: center;
     letter-spacing: 1px;
     text-decoration: underline;
@@ -243,8 +246,7 @@ header{
   
 /* about skill section hover effect */
 .containersss{
-    height: 100vh;
-    width: 100%;
+
     position: relative;
     background-color: #464646;
   }
@@ -399,4 +401,8 @@ header{
 .projectImage{
     width: 100%;
     height: 100%;
+}
+.project-info p a {
+    text-decoration: underline;
+    color: #239DE2;
 }
