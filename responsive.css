@@ -74,3 +74,41 @@
 
 
 }
+
+/* Media Query For Tablet */
+@media only screen and (max-width:600px) {
+    #projects .project-img {
+        margin-top: 5px;
+        
+    }
+    #projects .project-img img{
+        height: 40vh;
+        width: 100vh;
+    }
+
+}
+/* project ko lagi responsive design */
+@media only screen and (min-width: 768px) {
+
+
+	/* Project */
+	#projects .project-item {
+		flex-direction: row;
+	}
+	#projects .project-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#projects .project-item {
+		height: 400px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	#projects .all-projects .project-info {
+		height: 100%;
+	}
+	#projects .all-projects .project-img {
+		height: 100%;
+	}
+	
+}

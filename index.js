@@ -34,3 +34,15 @@ let preloader = document.querySelector('.preloader');
 window.addEventListener("load",function(){
   preloader.style.display = "none"
 })
+var typed = new Typed(".typing",{
+  strings:["Developer ","UI/UX Designer ","Web Designer "],
+  typeSpeed: 100,
+  backSpeed: 100,
+  loop: true
+})
+var typed = new Typed(".typings",{
+  strings:["Web Designer ","Developer ","UI/UX Designer "],
+  typeSpeed: 100,
+  backSpeed: 100,
+  loop: true
+})
