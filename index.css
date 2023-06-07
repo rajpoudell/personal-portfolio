@@ -400,6 +400,9 @@ header{
     margin-top: 60px;
     
 }
+.seemore a:hover , .seemore:hover{
+    color: rgba(245, 245, 245, 0.623);
+}
 
 .projectImage{
     width: 100%;
