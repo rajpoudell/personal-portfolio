@@ -417,6 +417,7 @@ header{
 
 #contact  {
 	background-color: #464646;
+    overflow-x: hidden;
 
 }
 #contact .contact {
