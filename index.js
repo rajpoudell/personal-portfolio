@@ -1,9 +1,8 @@
 
 // js for disable right click of the mouse 
-
   document.addEventListener("contextmenu", function(event){
     event.preventDefault();
-    alert('Right Click is Disabled');    
+    alert('Right Click is Disabled please inspect with F12 :)');    
     }, false);
 
     // js for preloader 
