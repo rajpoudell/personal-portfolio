@@ -6,10 +6,7 @@
     }, false);
 
     // js for preloader 
-let preloader = document.querySelector('.preloader');
-window.addEventListener("load",function(){
-  preloader.style.display = "none"
-})
+
 
 window.addEventListener("load", () => {
   const loader = document.querySelector(".loader");
