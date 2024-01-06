@@ -314,15 +314,15 @@ preloader ko css sakeo
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 28px ;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px ;
     color: white;
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    opacity: 0;
-    transition: 0.75s;
+    opacity: 1;
+    transition: .5s;
 
 
 }
@@ -331,13 +331,14 @@ preloader ko css sakeo
     transition: 0.75s;
 }
 .image__overlay:hover{
-    opacity: 1;
+    opacity: 0;
 }
 .image__overlay:hover>*{
     transform: translateY(0px);
 }
 .image__title{
     font-size: 2em;
+    display: none;
 }
 
 /* Projects ko css  */
