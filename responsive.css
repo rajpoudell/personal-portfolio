@@ -4,6 +4,7 @@
     header{
             margin: 5px;
         }
+        
     .header-ul{
                 display: flex;
                 flex-direction: column;
@@ -68,6 +69,9 @@
         text-align: center;
         gap: 7px;
         grid-template-columns: repeat(3,1fr);
+    }
+    .image__overlay{
+        background: rgba(0, 0, 0, 0.1);
     }
 
 
