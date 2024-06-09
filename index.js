@@ -20,36 +20,49 @@
 
 
 // improve version of loader copied from chatgpt
-const onLoad = () => {
-  const loader = document.querySelector(".loader");
+// const onLoad = () => {
+//   const loader = document.querySelector(".loader");
 
+//   if (loader) {
+//     loader.classList.add("loader--hidden");
+
+//     loader.addEventListener("transitionend", () => {
+//       document.body.removeChild(loader);
+//     });
+
+//     // Remove the "load" event listener
+//     window.removeEventListener("load", onLoad);
+//   } else {
+//     console.error("Loader element not found");
+//   }
+// };
+
+// window.addEventListener("load", onLoad);
+
+window.addEventListener("load", function() {
+  let loader = document.querySelector('.loader');
+  console.log(loader); // Check if the loader is selected
   if (loader) {
-    loader.classList.add("loader--hidden");
-
-    loader.addEventListener("transitionend", () => {
-      document.body.removeChild(loader);
-    });
-
-    // Remove the "load" event listener
-    window.removeEventListener("load", onLoad);
+      loader.classList.add('loader--hidden');
+      // Optional: remove the loader element from the DOM after the transition
+      loader.addEventListener('transitionend', function() {
+          loader.remove();
+      });
   } else {
-    console.error("Loader element not found");
+      console.error('Loader element not found!');
   }
-};
-
-window.addEventListener("load", onLoad);
-
+});
 
 
 var typed = new Typed(".typing",{
-  strings:["Developer ","UI/UX Designer ","Web Designer "],
+  strings:["Web Developer ","React js Developer","Web Designer ","Node js Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   loop: true
 })
-var typed = new Typed(".typings",{
-  strings:["Web Designer ","Developer ","UI/UX Designer "],
-  typeSpeed: 100,
-  backSpeed: 100,
-  loop: true
-})
+// var typed = new Typed(".typings",{
+//   strings:["Web Designer ","Developer ","UI/UX Designer "],
+//   typeSpeed: 100,
+//   backSpeed: 100,
+//   loop: true
+// })
