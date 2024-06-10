@@ -39,7 +39,7 @@
 
 // window.addEventListener("load", onLoad);
 
-window.addEventListener("load", function() {
+window.addEventListener("DOMContentLoaded", function() {
   let loader = document.querySelector('.loader');
   console.log(loader); // Check if the loader is selected
   if (loader) {
